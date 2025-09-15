@@ -54,7 +54,7 @@ export default function LeadsTable({ rows }: Props) {
         <Table className="min-w-[1000px]">
         <TableHeader>
           <TableRow className="bg-gray-50">
-            <TableHead className="cursor-pointer w-[120px] sm:w-[180px]" onClick={() => toggle("name")}>
+            <TableHead className="cursor-pointer py-6 w-[120px] sm:w-[180px]" onClick={() => toggle("name")}>
               <div className="flex items-center gap-2 sm:gap-3">
                 <span className="text-sm md:text-sm">Name</span>
                 <ArrowUpDown className="h-3 w-3 sm:h-4 sm:w-4" />
